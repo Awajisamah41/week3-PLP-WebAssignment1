@@ -1,0 +1,84 @@
+
+/* Universal selector to apply basic styles to all elements */
+* {
+    box-sizing: border-box; /* This ensures padding and border are included in the element's total width and height */
+    font-family: 'Arial', sans-serif; /* Using a more common font */
+    margin: 0;
+    padding: 0;}
+
+/* Body styles for background and text color */
+body {
+    background-color: #e9ecef; /* A light grey background for better contrast */
+    color: #495057; /* A dark grey for readability */
+    line-height: 1.6;
+}
+
+/* Styles for the main header using a class selector */
+.main-header {
+    background-color: #343a40; /* Darker header background */
+    color: #fff;
+    padding: 2rem; /* Using rem for scalable padding */
+    text-align: center;
+    border-bottom: 5px solid #007bff; /* A colored line to separate header from content */
+}
+
+/* Container for main content to control width and centering */
+.container {
+    max-width: 900px; /* Adjusted max-width for better display on different screens */
+    margin: 20px auto;
+    padding: 0 1rem;
+}
+
+/* Styles for all section headers */
+section h2 {
+    color: #007bff;
+    margin-bottom: 15px; /* Added more space below the headers */
+    border-bottom: 2px solid #ccc; /* A subtle line for visual separation */
+    padding-bottom: 5px;
+}
+
+/* Styles for the demo box using the Box Model */
+.box {
+    background-color: #fff;
+    border: 1px solid #dee2e6; /* Lighter border for a cleaner look */
+    border-radius: 8px; /* Rounded corners for modern design */
+    padding: 40px;          /* Inner space between content and border */
+    margin: 20px 0;         /* Outer space between the box and other elements */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adding a subtle shadow for depth */
+}
+
+/* Class selector styling a specific paragraph */
+.special-text {
+    font-style: italic;
+    color: #17a2b8; /* A different color to make it stand out */
+    font-size: 1.1em; /* Slightly larger font size */
+}
+
+/* ID selector styling a unique heading */
+#unique-heading {
+    color: #28a745;
+    text-decoration: none; /* Removing the underline for a cleaner look */
+    font-weight: bold;
+}
+
+/* Styles for the list elements using a tag selector */
+li {
+    list-style-type: none; /* Removes the bullet points */
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 8px; /* Added more space between list items */
+    border-radius: 5px;
+    border: 1px solid #e9ecef;
+}
+
+/* Styles for the footer */
+.main-footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 40px;
+    border-top: 5px solid #007bff; /* A colored line to match the header */
+}
+
